@@ -1,0 +1,76 @@
+
+.page-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    .content-wrapper{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 36px;
+        flex-direction: column;
+        max-width: 600px;
+        color: #000000ed; 
+
+        .youtube-wrapper{
+            width: 100%;
+            div{
+                width: 100%;
+                iframe{
+                    width: 100%;
+                }
+            }
+        }
+    
+        img{
+            max-width: 250px;
+        }
+
+        p{
+            font-size: 0.9em;
+        }
+
+        .coming-soon{
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        .get-in-touch{
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+
+        .detail{
+            display: flex;
+            justify-content: center;
+            margin: 6px 0;
+
+            span{
+                padding-left: 12px;
+            }
+
+            .MuiSvgIcon-root{
+                color: #155e8e;
+            }
+
+            a{
+                color: unset;
+                padding-left: 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .page-wrapper{
+        .content-wrapper{
+            padding: 12px;
+        }
+    }
+
+}
+
+
+
