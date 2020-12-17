@@ -23,8 +23,9 @@ function App() {
                     <h4>Unlocking the value in residential property, the UK’s largest asset class</h4>
                     {/* <br/> */}
                     <p>Liquidity4Life® is a revolutionary software platform which allows customers to switch the value in their property from bricks and mortar to investments they can drawdown to fund their lifestyle, whilst still retaining control over their property and living in it. Home Drawdown® is the first solution in a long line that Liquidity4Life® will bring to the UK market.
-                        For more information please download our introduction document <a href="Introduction-to-Liquidity4Life.pdf" download>here</a>.
-                    </p>
+                        </p>
+                        <p>For more information please download our introduction document <a href="Introduction-to-Liquidity4Life.pdf" download>here</a>.
+                    Furthermore, if you would like to see a demo of the Liquidity4Life prototype application, please get in touch using the details below.</p>
                     <br />
                     <span className="coming-soon">Coming Soon</span>
                     <br />
