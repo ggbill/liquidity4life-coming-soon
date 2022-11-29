@@ -46,7 +46,7 @@ function App() {
 					<span className="coming-soon">Coming Soon</span>
 					<br />
 					<div className="youtube-wrapper">
-						<YouTube videoId="0EETiWzsU4o" />
+						<YouTube videoId="gfM6UFjXwH0" />
 					</div>
 
 					<br />
