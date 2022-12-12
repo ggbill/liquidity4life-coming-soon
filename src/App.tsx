@@ -36,7 +36,7 @@ function App() {
 
 					<p>
 						For more information please download our introduction document{" "}
-						<a href="Introduction-to-Liquidity4Life.pdf" download>
+						<a href="Home-Drawdown-Web.pdf" download>
 							here
 						</a>
 						. Furthermore, if you would like to see a demo of the Liquidity4Life prototype application, please get in touch using the
