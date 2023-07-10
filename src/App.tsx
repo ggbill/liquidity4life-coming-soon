@@ -46,6 +46,10 @@ function App() {
 					<span className="coming-soon">Coming Soon</span>
 					<br />
 					<div className="youtube-wrapper">
+						<YouTube videoId="rIK80mwUAFc" />
+					</div>
+					<br />
+					<div className="youtube-wrapper">
 						<YouTube videoId="gfM6UFjXwH0" />
 					</div>
 
@@ -55,11 +59,11 @@ function App() {
 					<div className="contact-details">
 						<div className="detail">
 							<PhoneIcon />
-							<span>+44 (0)7837 034028</span>
+							<span>+44 (0)7801 833631</span>
 						</div>
 						<div className="detail">
 							<EmailIcon />
-							<a href="mailto:andrew@liquidity4life.co.uk">andrew@liquidity4life.co.uk</a>
+							<a href="mailto:nick.kemp@homedrawdown.com">nick.kemp@homedrawdown.com</a>
 						</div>
 					</div>
 				</div>
