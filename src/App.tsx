@@ -6,14 +6,13 @@ import EmailIcon from "@material-ui/icons/Email"
 import HttpsRedirect from "react-https-redirect"
 import YouTube from "react-youtube"
 import UsefulLinkCard from "./components/UsefulLinkCard"
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-JT5SE2NFPQ");
 
 function App() {
-	// const opts: any = {
-	//     playerVars: {
-	//       autoplay: 1,
-	//       start: props.startSeconds
-	//     },
-	//   };
+
+	ReactGA.send({ hitType: "pageview", page: "/", title: "Liquidity4Life" });
 
 	return (
 		<HttpsRedirect>
