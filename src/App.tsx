@@ -6,13 +6,17 @@ import EmailIcon from "@material-ui/icons/Email"
 import HttpsRedirect from "react-https-redirect"
 import YouTube from "react-youtube"
 import UsefulLinkCard from "./components/UsefulLinkCard"
-import ReactGA from "react-ga4";
+import ReactGA from "react-ga4"
 
-ReactGA.initialize("G-JT5SE2NFPQ");
+ReactGA.initialize("G-JT5SE2NFPQ")
 
 function App() {
+	ReactGA.send({ hitType: "pageview", page: "/", title: "Liquidity4Life" })
 
-	ReactGA.send({ hitType: "pageview", page: "/", title: "Liquidity4Life" });
+	// @ts-ignore
+	window.YTConfig = {
+		host: 'https://www.youtube.com' 
+	  } 
 
 	return (
 		<HttpsRedirect>
@@ -20,28 +24,6 @@ function App() {
 				<div className="content-wrapper">
 					<img className="logo" alt="liquidity4life" src={logo} />
 					<h4>Unlocking the value in residential property, the UK’s largest asset class</h4>
-					{/* <br/> */}
-					{/* <p>
-						Liquidity4Life® is a revolutionary software platform which allows customers to switch the value in their property from bricks
-						and mortar to investments they can drawdown to fund their lifestyle, whilst still retaining control over their property and
-						living in it. Home Drawdown® is the first solution in a long line that Liquidity4Life® will bring to the UK market.
-					</p>
-					<p>
-						Click{" "}
-						<a href="The-lang-cat-home-asset-report.pdf" download>
-							here
-						</a>{" "}
-						to view the recent Lang Cat home asset report.
-					</p>
-
-					<p>
-						For more information please download our introduction document{" "}
-						<a href="Introduction-to-Liquidity4Life.pdf" download>
-							here
-						</a>
-						. Furthermore, if you would like to see a demo of the Liquidity4Life prototype application, please get in touch using the
-						details below.
-					</p> */}
 					<span className="coming-soon">Coming Soon</span>
 					<p>In Q1 of 2024 the Founders of Liquidity4Life are planning to launch Home Drawdown® in the UK.</p>
 					<p>
@@ -55,15 +37,14 @@ function App() {
 						as Rupert Hambro, L4L is now looking to raise £850,000 for a 20% stake in the company.
 					</p>
 					<p>
-						RISK WARNING: Don’t invest unless you’re prepared to lose all the money you invest. This is a high-risk investment, and you are unlikely to
-						be protected if something goes wrong. Take 2 mins to learn{" "}
+						RISK WARNING: Don’t invest unless you’re prepared to lose all the money you invest. This is a high-risk investment, and you
+						are unlikely to be protected if something goes wrong. Take 2 mins to learn{" "}
 						<a href="Key Risks.pdf" download>
 							more
 						</a>
 						.
 					</p>
 					<br />
-
 					<br />
 					<h1>VIDEOS</h1>
 					<div className="videos-wrapper">
@@ -75,17 +56,13 @@ function App() {
 							<YouTube videoId="gfM6UFjXwH0" />
 						</div>
 					</div>
-
-
-
 					<br />
 					<br />
-
 					<h1>VALIDATING ARTICLES</h1>
-
-
-					<p>Three articles in the space of a week have validated what the team at Liquidity4Life have been saying for many months. Please click the links here to see these reports:</p>
-
+					<p>
+						Three articles in the space of a week have validated what the team at Liquidity4Life have been saying for many months. Please
+						click the links here to see these reports:
+					</p>
 					<div className="useful-links-wrapper">
 						<UsefulLinkCard
 							title="Why institutional investors are eyeing UK’s private rental sector"
@@ -105,12 +82,9 @@ function App() {
 							imageUrl="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Ffta-ez-prod%2Fez%2Fimages%2F6%2F9%2F2%2F2%2F3712296-15-eng-GB%2FBusiness+colleagues+in+consultation+%28Freedomtumz%3AEnvato%29.jpg%3Fv1?source=ftadviser"
 							linkUrl="https://www.ftadviser.com/retirement-income/2023/08/17/what-the-fca-is-looking-for-in-its-retirement-income-advice-study/"
 						/>
-						
 					</div>
-
 					<br />
 					<br />
-					{/* <span className="get-in-touch">Get in touch</span> */}
 					<h1>GET IN TOUCH</h1>
 					<div className="contact-details">
 						<div className="detail">
