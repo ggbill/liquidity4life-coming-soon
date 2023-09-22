@@ -10,20 +10,37 @@
         text-align: center;
         padding: 36px;
         flex-direction: column;
-        max-width: 600px;
+        max-width: 1200px;
         color: #000000ed; 
 
-        .youtube-wrapper{
+        .videos-wrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
             width: 100%;
-            div{
-                width: 100%;
-                iframe{
+            justify-content: space-between;
+
+            .youtube-wrapper{
+                width: 48%;
+                div{
                     width: 100%;
+                    iframe{
+                        width: 100%;
+                    }
                 }
             }
         }
+
+        .useful-links-wrapper{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+        }
+
     
-        img{
+        img.logo{
             max-width: 250px;
         }
 
@@ -33,6 +50,7 @@
 
         .coming-soon{
             font-size: 3em;
+            line-height: 3rem;
             font-weight: bold;
         }
 
