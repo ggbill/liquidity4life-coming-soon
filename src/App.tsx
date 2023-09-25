@@ -89,11 +89,11 @@ function App() {
 					<div className="contact-details">
 						<div className="detail">
 							<PhoneIcon />
-							<span>+44 (0)7801 833631</span>
+							<span>+44 (0)7837 034028</span>
 						</div>
 						<div className="detail">
 							<EmailIcon />
-							<a href="mailto:nick.kemp@homedrawdown.com">nick.kemp@homedrawdown.com</a>
+							<a href="mailto:andrew@liquidity4life.co.uk">andrew@liquidity4life.co.uk</a>
 						</div>
 					</div>
 				</div>
