@@ -25,7 +25,7 @@ function App() {
 					<img className="logo" alt="liquidity4life" src={logo} />
 					<h4>Unlocking the value in residential property, the UK’s largest asset class</h4>
 					<span className="coming-soon">Coming Soon</span>
-					<p>In Q2 of 2024 the Founders of Liquidity4Life are planning to launch Home Drawdown® in the UK.</p>
+					<p>In Q1 of 2025 the Founders of Liquidity4Life are planning to launch Home Drawdown® in the UK.</p>
 					<p>
 						By combining a new application of familiar financial products with disruptive technology, Home Drawdown® is a new retail plan
 						that works along similar lines to pension drawdown and underpins the first investment-based alternative to equity release and
