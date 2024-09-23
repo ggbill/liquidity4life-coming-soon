@@ -49,7 +49,7 @@ function App() {
 					<h1>VIDEOS</h1>
 					<div className="videos-wrapper">
 						<div className="youtube-wrapper">
-							<YouTube videoId="rIK80mwUAFc" />
+							<YouTube videoId="GhbmvRrBq0s" />
 						</div>
 						<br />
 						<div className="youtube-wrapper">
